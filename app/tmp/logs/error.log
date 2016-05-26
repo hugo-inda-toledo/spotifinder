@@ -1,0 +1,1886 @@
+2016-05-24 04:07:47 Error: [MissingControllerException] Controller class SearchController could not be found.
+Exception Attributes: array (
+  'class' => 'SearchController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:11:31 Error: [MissingPluginException] Plugin Facebook could not be found.
+Exception Attributes: array (
+  'plugin' => 'Facebook',
+)
+Request URL: /spotifind/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(227): CakePlugin::path('Facebook')
+#1 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(549): App::path('View/Helper', 'Facebook')
+#2 [internal function]: App::load('FacebookHelper')
+#3 [internal function]: spl_autoload_call('FacebookHelper')
+#4 /Applications/MAMP/htdocs/spotifind/lib/Cake/View/HelperCollection.php(130): class_exists('FacebookHelper')
+#5 /Applications/MAMP/htdocs/spotifind/lib/Cake/View/View.php(897): HelperCollection->load('Facebook.Facebo...', Array)
+#6 /Applications/MAMP/htdocs/spotifind/lib/Cake/View/View.php(354): View->loadHelpers()
+#7 /Applications/MAMP/htdocs/spotifind/lib/Cake/Controller/Controller.php(1247): View->__construct(Object(SearchController))
+#8 /Applications/MAMP/htdocs/spotifind/lib/Cake/Controller/Controller.php(946): Controller->_getViewObject()
+#9 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SearchController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-05-24 04:11:55 Error: [MissingViewException] View file "Search/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Search/index.ctp',
+)
+Request URL: /spotifind/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/spotifind/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SearchController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-24 04:16:01 Error: [MissingViewException] View file "Search/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Search/index.ctp',
+)
+Request URL: /spotifind/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/spotifind/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SearchController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-24 04:16:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/css/bootstrap.min.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:16:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/css/metisMenu.min.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:16:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/css/font-awesome.min.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:16:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/css/sb-admin-2.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:16:36 Error: [MissingViewException] View file "Search/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Search/index.ctp',
+)
+Request URL: /spotifind/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/spotifind/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SearchController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-24 04:16:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/css/font-awesome.min.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:16:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/css/sb-admin-2.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:16:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/css/metisMenu.min.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:16:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/css/bootstrap.min.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:16:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/css/sb-admin-2.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:16:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/css/font-awesome.min.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:16:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/css/bootstrap.min.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:16:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/css/metisMenu.min.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:17:44 Error: [MissingViewException] View file "Search/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Search/index.ctp',
+)
+Request URL: /spotifind/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/spotifind/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SearchController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-24 04:17:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/css/sb-admin-2.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:17:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/css/bootstrap.min.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:17:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/css/metisMenu.min.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:17:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/css/font-awesome.min.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:23:45 Error: [MissingViewException] View file "Search/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Search/index.ctp',
+)
+Request URL: /spotifind/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/spotifind/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SearchController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-24 04:23:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/fonts/fontawesome-webfont.woff?v=4.2.0
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:23:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:23:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/fonts/fontawesome-webfont.ttf?v=4.2.0
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:23:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:26:01 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/fonts/fontawesome-webfont.woff?v=4.2.0
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:26:01 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/fonts/fontawesome-webfont.ttf?v=4.2.0
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:26:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:26:47 Error: Fatal Error (4): syntax error, unexpected '<' in [/Applications/MAMP/htdocs/spotifind/app/View/Layouts/default.ctp, line 19]
+2016-05-24 04:26:47 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /spotifind/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 04:27:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/fonts/fontawesome-webfont.woff?v=4.2.0
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:27:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/fonts/fontawesome-webfont.ttf?v=4.2.0
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:27:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:28:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:39:33 Error: Fatal Error (1): Unsupported operand types in [/Applications/MAMP/htdocs/spotifind/lib/Cake/View/Helper/FormHelper.php, line 378]
+2016-05-24 04:39:33 Error: [FatalErrorException] Unsupported operand types
+Request URL: /spotifind/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/Applications/M...', 378)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/Applications/M...', 378, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/Applications/M...', 378, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 04:39:58 Error: Fatal Error (1): Unsupported operand types in [/Applications/MAMP/htdocs/spotifind/lib/Cake/View/Helper/FormHelper.php, line 378]
+2016-05-24 04:39:58 Error: [FatalErrorException] Unsupported operand types
+Request URL: /spotifind/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/Applications/M...', 378)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/Applications/M...', 378, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/Applications/M...', 378, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 04:41:28 Error: Fatal Error (1): Unsupported operand types in [/Applications/MAMP/htdocs/spotifind/lib/Cake/View/Helper/FormHelper.php, line 378]
+2016-05-24 04:41:28 Error: [FatalErrorException] Unsupported operand types
+Request URL: /spotifind/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/Applications/M...', 378)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/Applications/M...', 378, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/Applications/M...', 378, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 04:41:40 Error: Fatal Error (1): Unsupported operand types in [/Applications/MAMP/htdocs/spotifind/lib/Cake/View/Helper/FormHelper.php, line 1729]
+2016-05-24 04:41:40 Error: [FatalErrorException] Unsupported operand types
+Request URL: /spotifind/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/Applications/M...', 1729)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/Applications/M...', 1729, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/Applications/M...', 1729, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 04:42:59 Error: Fatal Error (1): Unsupported operand types in [/Applications/MAMP/htdocs/spotifind/lib/Cake/View/Helper/FormHelper.php, line 1729]
+2016-05-24 04:42:59 Error: [FatalErrorException] Unsupported operand types
+Request URL: /spotifind/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/Applications/M...', 1729)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/Applications/M...', 1729, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/Applications/M...', 1729, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 04:43:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 04:45:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 05:07:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/img/spotify-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 05:08:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 05:09:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 05:10:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 05:10:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 12:36:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 12:39:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 12:40:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 12:40:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 12:41:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 12:43:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 12:44:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 12:44:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 12:49:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 12:50:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 15:47:16 Error: [MissingActionException] Action SearchController::artist() could not be found.
+Exception Attributes: array (
+  'controller' => 'SearchController',
+  'action' => 'artist',
+)
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SearchController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-24 15:47:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 15:47:41 Error: [MissingActionException] Action SearchController::artist() could not be found.
+Exception Attributes: array (
+  'controller' => 'SearchController',
+  'action' => 'artist',
+)
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SearchController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-24 15:47:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 15:47:45 Error: [MissingActionException] Action SearchController::artist() could not be found.
+Exception Attributes: array (
+  'controller' => 'SearchController',
+  'action' => 'artist',
+)
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SearchController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-24 15:47:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 15:48:29 Error: [MissingActionException] Action SearchController::artist() could not be found.
+Exception Attributes: array (
+  'controller' => 'SearchController',
+  'action' => 'artist',
+)
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SearchController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-24 15:48:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 15:48:49 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 15:48:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 15:49:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 15:49:12 Error: Fatal Error (1): Class 'Spotify' not found in [/Applications/MAMP/htdocs/spotifind/app/Controller/SearchController.php, line 28]
+2016-05-24 15:49:12 Error: [FatalErrorException] Class 'Spotify' not found
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Spotify'...', '/Applications/M...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Spotify'...', '/Applications/M...', 28, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Spotify'...', '/Applications/M...', 28, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 15:49:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 15:56:48 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'spotify.class.php' (include_path='/Applications/MAMP/htdocs/spotifind/lib:.:/Applications/MAMP/bin/php/php5.3.20/lib/php') in [/Applications/MAMP/htdocs/spotifind/app/Controller/SearchController.php, line 28]
+2016-05-24 15:56:48 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'spotify.class.php' (include_path='/Applications/MAMP/htdocs/spotifind/lib:.:/Applications/MAMP/bin/php/php5.3.20/lib/php')
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/M...', 28)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/Applications/M...', 28, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/Applications/M...', 28, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 15:56:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 15:59:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 15:59:44 Error: Fatal Error (1): Class 'Spotify' not found in [/Applications/MAMP/htdocs/spotifind/app/Controller/SearchController.php, line 29]
+2016-05-24 15:59:44 Error: [FatalErrorException] Class 'Spotify' not found
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Spotify'...', '/Applications/M...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Spotify'...', '/Applications/M...', 29, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Spotify'...', '/Applications/M...', 29, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 15:59:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:01:31 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/Applications/MAMP/htdocs/spotifind/app/Controller/SearchController.php, line 29]
+2016-05-24 16:01:31 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 29, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 29, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 16:01:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:02:55 Error: Fatal Error (1): Class 'Spotify' not found in [/Applications/MAMP/htdocs/spotifind/app/Controller/SearchController.php, line 29]
+2016-05-24 16:02:55 Error: [FatalErrorException] Class 'Spotify' not found
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Spotify'...', '/Applications/M...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Spotify'...', '/Applications/M...', 29, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Spotify'...', '/Applications/M...', 29, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 16:02:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:03:55 Error: Fatal Error (1): Class 'Spotify' not found in [/Applications/MAMP/htdocs/spotifind/app/Controller/SearchController.php, line 29]
+2016-05-24 16:03:55 Error: [FatalErrorException] Class 'Spotify' not found
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Spotify'...', '/Applications/M...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Spotify'...', '/Applications/M...', 29, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Spotify'...', '/Applications/M...', 29, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 16:03:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:05:08 Error: Fatal Error (1): Class 'Spotify' not found in [/Applications/MAMP/htdocs/spotifind/app/Controller/SearchController.php, line 31]
+2016-05-24 16:05:08 Error: [FatalErrorException] Class 'Spotify' not found
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Spotify'...', '/Applications/M...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Spotify'...', '/Applications/M...', 31, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Spotify'...', '/Applications/M...', 31, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 16:05:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:14:35 Error: [MissingViewException] View file "Search/artist.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Search/artist.ctp',
+)
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/spotifind/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SearchController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-24 16:14:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:15:15 Error: [MissingViewException] View file "Search/artist.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Search/artist.ctp',
+)
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/spotifind/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SearchController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-24 16:15:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:15:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:17:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:17:44 Error: Fatal Error (1): Class 'Spotify' not found in [/Applications/MAMP/htdocs/spotifind/app/Controller/SearchController.php, line 34]
+2016-05-24 16:17:44 Error: [FatalErrorException] Class 'Spotify' not found
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Spotify'...', '/Applications/M...', 34)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Spotify'...', '/Applications/M...', 34, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Spotify'...', '/Applications/M...', 34, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 16:17:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:20:02 Error: Fatal Error (1): Class 'Spotify' not found in [/Applications/MAMP/htdocs/spotifind/app/Controller/SearchController.php, line 34]
+2016-05-24 16:20:02 Error: [FatalErrorException] Class 'Spotify' not found
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Spotify'...', '/Applications/M...', 34)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Spotify'...', '/Applications/M...', 34, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Spotify'...', '/Applications/M...', 34, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 16:20:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:21:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:21:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:23:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:30:03 Error: [MissingPluginException] Plugin Spotify could not be found.
+Exception Attributes: array (
+  'plugin' => 'Spotify',
+)
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(227): CakePlugin::path('Spotify')
+#1 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(549): App::path('Model', 'Spotify')
+#2 [internal function]: App::load('Spotify')
+#3 /Applications/MAMP/htdocs/spotifind/app/Controller/SearchController.php(35): spl_autoload_call('Spotify')
+#4 [internal function]: SearchController->artist()
+#5 /Applications/MAMP/htdocs/spotifind/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#6 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SearchController), Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-05-24 16:30:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:30:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:32:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:32:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:33:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:34:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:35:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:38:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:39:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:39:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:39:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 16:39:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 17:10:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 17:10:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 17:13:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 17:13:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 17:14:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 17:15:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 17:17:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 17:18:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 17:18:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 17:20:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 17:23:42 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/Applications/MAMP/htdocs/spotifind/app/View/Search/index.ctp, line 130]
+2016-05-24 17:23:42 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /spotifind/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 130)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 130, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 130, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 17:23:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 17:26:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 17:31:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 17:35:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 17:41:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 17:41:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 18:51:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 18:55:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 18:59:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:01:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:01:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:02:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:09:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:09:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:10:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:17:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:18:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:19:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:20:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:22:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:23:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:23:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:30:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:31:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:31:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:32:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 19:35:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 20:02:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 20:06:28 Error: Fatal Error (4): syntax error, unexpected ')' in [/Applications/MAMP/htdocs/spotifind/app/Controller/SearchController.php, line 41]
+2016-05-24 20:06:28 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /spotifind/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 41, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 41, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 20:06:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 20:06:45 Error: [MissingControllerException] Controller class ArtistController could not be found.
+Exception Attributes: array (
+  'class' => 'ArtistController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 20:06:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 20:06:53 Error: Fatal Error (1): Class 'SpotifyWebAPI\SpotifyWebAPI' not found in [/Applications/MAMP/htdocs/spotifind/app/Controller/SearchController.php, line 37]
+2016-05-24 20:06:53 Error: [FatalErrorException] Class 'SpotifyWebAPI\SpotifyWebAPI' not found
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'SpotifyW...', '/Applications/M...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'SpotifyW...', '/Applications/M...', 37, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'SpotifyW...', '/Applications/M...', 37, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 20:06:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 20:09:57 Error: Fatal Error (1): Class 'SpotifyWebAPI\SpotifyWebAPI' not found in [/Applications/MAMP/htdocs/spotifind/app/Controller/SearchController.php, line 37]
+2016-05-24 20:09:57 Error: [FatalErrorException] Class 'SpotifyWebAPI\SpotifyWebAPI' not found
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'SpotifyW...', '/Applications/M...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'SpotifyW...', '/Applications/M...', 37, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'SpotifyW...', '/Applications/M...', 37, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 20:09:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 20:10:34 Error: Fatal Error (1): Class 'SpotifyWebAPI\Request' not found in [/Applications/MAMP/htdocs/spotifind/app/Vendor/spotify-web-api-php/src/SpotifyWebAPI.php, line 19]
+2016-05-24 20:10:34 Error: [FatalErrorException] Class 'SpotifyWebAPI\Request' not found
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'SpotifyW...', '/Applications/M...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'SpotifyW...', '/Applications/M...', 19, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'SpotifyW...', '/Applications/M...', 19, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 20:10:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 20:11:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 21:25:25 Error: [SpotifyWebAPI\SpotifyWebAPIException] Bad search type field
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/Vendor/spotify-web-api-php/src/Request.php(68): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', Array, Array)
+#1 /Applications/MAMP/htdocs/spotifind/app/Vendor/spotify-web-api-php/src/SpotifyWebAPI.php(1171): SpotifyWebAPI\Request->api('GET', '/v1/search', Array, Array)
+#2 /Applications/MAMP/htdocs/spotifind/app/Controller/SearchController.php(41): SpotifyWebAPI\SpotifyWebAPI->search('Metallica')
+#3 [internal function]: SearchController->artist()
+#4 /Applications/MAMP/htdocs/spotifind/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#5 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/MAMP/htdocs/spotifind/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SearchController), Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-05-24 21:26:09 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/Applications/MAMP/htdocs/spotifind/app/Controller/SearchController.php, line 43]
+2016-05-24 21:26:09 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /spotifind/search/artist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/Applications/M...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/Applications/M...', 43, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/Applications/M...', 43, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 22:20:07 Error: Fatal Error (4): syntax error, unexpected ')' in [/Applications/MAMP/htdocs/spotifind/app/View/Search/search_engine.ctp, line 18]
+2016-05-24 22:20:07 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /spotifind/search/searchEngine/ride%20the%20lightning
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 18, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 18, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-24 22:58:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 23:00:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 23:00:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 23:02:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 23:03:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 23:05:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 23:10:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-24 23:15:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 09:44:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 09:44:45 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/MAMP/htdocs/spotifind/app/View/Search/index.ctp, line 112]
+2016-05-25 09:44:45 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /spotifind/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 112)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 112, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 112, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-25 09:44:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 09:44:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 09:46:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 09:46:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 09:48:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 09:49:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 09:49:17 Error: [MissingControllerException] Controller class Jquery.min.mapController could not be found.
+Exception Attributes: array (
+  'class' => 'Jquery.min.mapController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 10:06:22 Error: Fatal Error (4): syntax error, unexpected ')' in [/Applications/MAMP/htdocs/spotifind/app/View/Search/search_engine.ctp, line 69]
+2016-05-25 10:06:22 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /spotifind/search/searchEngine/dfds
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 69)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 69, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 69, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-25 10:07:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 10:07:37 Error: Fatal Error (4): syntax error, unexpected ')' in [/Applications/MAMP/htdocs/spotifind/app/View/Search/search_engine.ctp, line 69]
+2016-05-25 10:07:37 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /spotifind/search/searchEngine/metallica
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 69)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 69, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 69, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-25 10:08:16 Error: Fatal Error (4): syntax error, unexpected ')' in [/Applications/MAMP/htdocs/spotifind/app/View/Search/search_engine.ctp, line 69]
+2016-05-25 10:08:16 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /spotifind/search/searchEngine/metallica
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 69)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 69, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 69, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-25 10:08:27 Error: [MissingControllerException] Controller class Jquery.min.mapController could not be found.
+Exception Attributes: array (
+  'class' => 'Jquery.min.mapController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 10:15:46 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/MAMP/htdocs/spotifind/app/View/Search/search_engine.ctp, line 67]
+2016-05-25 10:15:46 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /spotifind/search/searchEngine/metallica
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 67, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 67, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-25 10:15:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 10:16:06 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/MAMP/htdocs/spotifind/app/View/Search/search_engine.ctp, line 67]
+2016-05-25 10:16:06 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /spotifind/search/searchEngine/metallica
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 67, Array)
+#2 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 67, Array)
+#3 /Applications/MAMP/htdocs/spotifind/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-25 10:16:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 10:17:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 10:17:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 10:17:50 Error: [MissingControllerException] Controller class Jquery.min.mapController could not be found.
+Exception Attributes: array (
+  'class' => 'Jquery.min.mapController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 10:27:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 10:28:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 10:28:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 10:30:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 10:33:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 10:46:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 10:48:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 10:48:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-25 10:58:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifind/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifind/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-26 03:26:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /spotifinder/js/jquery.min.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/spotifinder/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
